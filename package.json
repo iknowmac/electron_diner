@@ -1,0 +1,22 @@
+{
+  "name": "diner",
+  "version": "0.1.0",
+  "description": "Recipe app built on NODE.js, Express and Electron.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towen/electron_diner.git"
+  },
+  "author": "Terry J. Owen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/towen/electron_diner/issues"
+  },
+  "homepage": "https://github.com/towen/electron_diner#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
