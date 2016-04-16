@@ -2,7 +2,7 @@
   "name": "diner",
   "version": "0.1.0",
   "description": "Recipe app built on NODE.js, Express and Electron.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "test"
   },
