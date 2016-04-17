@@ -1,9 +1,10 @@
 {
-  "name": "diner",
+  "name": "electric-diner",
   "version": "0.1.0",
   "description": "Recipe app built on NODE.js, Express and Electron.",
   "main": "main.js",
   "scripts": {
+    "start": "./node_modules/.bin/electron .",
     "test": "test"
   },
   "repository": {
@@ -11,12 +12,22 @@
     "url": "git+https://github.com/towen/electron_diner.git"
   },
   "author": "Terry J. Owen",
-  "license": "ISC",
+  "license": "MIT",
+  "electronVersion": "0.37.6",
   "bugs": {
     "url": "https://github.com/towen/electron_diner/issues"
   },
   "homepage": "https://github.com/towen/electron_diner#readme",
   "dependencies": {
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt": "^0.37.6",
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "mocha": "^2.4.5"
   }
 }
